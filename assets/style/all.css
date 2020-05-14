@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.mb-2 {
+  margin-bottom: 2rem !important; }
+
+.mr-1 {
+  margin-right: 1rem !important; }
+
+.mr-48 {
+  margin-right: 48px; }
+
+.mr-24 {
+  margin-right: 24px; }
+
+.fz-12 {
+  font-size: 12px; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+body {
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif; }
+
+i {
+  vertical-align: bottom; }
+
+p {
+  margin-bottom: 0; }
+
+h2 {
+  font-size: 24px;
+  font-weight: bold; }
+
+main {
+  margin-left: 296px; }
+
+.container {
+  padding: 32px;
+  height: 100vh; }
+
+.list-group-item.active {
+  background-color: #EDF4EE;
+  border-color: #CDDDCD;
+  color: #000; }
+
+.accountPhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; }
+
+.pri-bg {
+  background-color: #EDF4EE;
+  border-color: #CDDDCD;
+  color: #000; }
+
+.sec-bg {
+  background-color: #2A8356;
+  color: #fff; }
+
+.pri-btn {
+  background-color: #2A8356;
+  color: #fff; }
+  .pri-btn:hover {
+    color: #fff; }
+
+.sec-btn {
+  color: #2A8356;
+  border-color: #2A8356; }
+  .sec-btn:hover {
+    background-color: #2A8356;
+    color: #ffffff;
+    border-color: #2A8356; }
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.secondary-color {
+  color: #2A8356; }
+
+.sec-text {
+  font-size: 12px;
+  color: #707070; }
+
+.cancel-btn {
+  color: #2A8356;
+  border-color: #2A8356; }
+
+.rotate90 {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+
+.sideBar {
+  width: 296px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #EDF4EE;
+  font-weight: bold; }
+  .sideBar a {
+    text-decoration: none;
+    display: block; }
+  .sideBar i {
+    margin-right: 16px; }
+  .sideBar-list-item {
+    margin-bottom: 24px; }
+    .sideBar-list-item a {
+      margin: 0 -32px;
+      padding-left: 32px; }
+      .sideBar-list-item a:hover, .sideBar-list-item a:focus {
+        border-left: 3px solid #2A8356;
+        color: #2A8356; }
+  .sideBar .account {
+    font-size: 14px;
+    color: #0000009A;
+    margin-top: auto; }
+    .sideBar .account h5 {
+      color: #000;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 0.25rem; }
+
+.assignment-header {
+  margin-bottom: 32px; }
+
+.assignment-footer h5 {
+  font-size: 12px; }
+
+.assignment-footer img {
+  width: 40px;
+  height: 40px; }
+
+.admin .pagination {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.admin .viewPhoto {
+  background-image: url(../images/emir.jpeg);
+  background-position: center center;
+  background-size: cover;
+  height: 141px;
+  width: 141px; }
+
+.admin .edit .accountInfo {
+  background-color: #EDF4EE;
+  border: none;
+  height: 50px;
+  padding: 16px;
+  margin-bottom: 16px; }
+
+.admin .pagination a {
+  border: 1px solid #2A8356;
+  color: #2A8356; }
+  .admin .pagination a:hover, .admin .pagination a:focus {
+    background-color: #2A8356;
+    color: #fff; }
+
+/*# sourceMappingURL=all.css.map */
